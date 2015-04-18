@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6654262917B9BE7F00CA1D72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6654262817B9BE7F00CA1D72 /* Default-568h@2x.png */; };
 		C3B7C8D7143A87870059B9BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7C8D6143A87870059B9BC /* UIKit.framework */; };
 		C3B7C8D9143A87870059B9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7C8D8143A87870059B9BC /* Foundation.framework */; };
 		C3B7C8DB143A87870059B9BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7C8DA143A87870059B9BC /* CoreGraphics.framework */; };
@@ -16,23 +17,65 @@
 		C3B7C8EA143A87870059B9BC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C8E8143A87870059B9BC /* MainWindow.xib */; };
 		C3B7C8ED143A87870059B9BC /* CourtCoverageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7C8EC143A87870059B9BC /* CourtCoverageViewController.m */; };
 		C3B7C8F0143A87870059B9BC /* CourtCoverageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C8EE143A87870059B9BC /* CourtCoverageViewController.xib */; };
+		C3B7C8F7143A87990059B9BC /* BallStripes57.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C8F6143A87990059B9BC /* BallStripes57.png */; };
+		C3B7C8F9143A87A50059B9BC /* BallStripes114.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C8F8143A87A50059B9BC /* BallStripes114.png */; };
+		C3B7C8FB143A8A770059B9BC /* HalfCourt768_1004.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C8FA143A8A770059B9BC /* HalfCourt768_1004.png */; };
+		C3B7C907143A8C020059B9BC /* A1.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C8FD143A8C020059B9BC /* A1.png */; };
+		C3B7C908143A8C020059B9BC /* A2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C8FE143A8C020059B9BC /* A2.png */; };
+		C3B7C909143A8C020059B9BC /* A3.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C8FF143A8C020059B9BC /* A3.png */; };
+		C3B7C90A143A8C020059B9BC /* A4.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C900143A8C020059B9BC /* A4.png */; };
+		C3B7C90B143A8C020059B9BC /* A5.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C901143A8C020059B9BC /* A5.png */; };
+		C3B7C90C143A8C020059B9BC /* B1.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C902143A8C020059B9BC /* B1.png */; };
+		C3B7C90D143A8C020059B9BC /* B2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C903143A8C020059B9BC /* B2.png */; };
+		C3B7C90E143A8C020059B9BC /* B3.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C904143A8C020059B9BC /* B3.png */; };
+		C3B7C90F143A8C020059B9BC /* B4.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C905143A8C020059B9BC /* B4.png */; };
+		C3B7C910143A8C020059B9BC /* B5.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C906143A8C020059B9BC /* B5.png */; };
+		C3B7C914143A8CFE0059B9BC /* letter_c_100_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C911143A8CFE0059B9BC /* letter_c_100_100.png */; };
+		C3B7C915143A8CFE0059B9BC /* letter_L_100_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C912143A8CFE0059B9BC /* letter_L_100_100.png */; };
+		C3B7C916143A8CFE0059B9BC /* letter_t_100_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C913143A8CFE0059B9BC /* letter_t_100_100.png */; };
+		C3B7C918143A8DA70059B9BC /* Basketball-Ball-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C917143A8DA70059B9BC /* Basketball-Ball-icon.png */; };
+		C3B7C92B143BCDF10059B9BC /* MovementOnCourtView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7C92A143BCDF00059B9BC /* MovementOnCourtView.m */; };
+		C3BAE7B9144E482E0040D02A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BAE7B8144E482D0040D02A /* Default.png */; };
+		C3BAE7BB144E49D20040D02A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BAE7BA144E49D20040D02A /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6654262817B9BE7F00CA1D72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C3B7C8D2143A87870059B9BC /* CourtCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourtCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B7C8D6143A87870059B9BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C3B7C8D8143A87870059B9BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3B7C8DA143A87870059B9BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C3B7C8DE143A87870059B9BC /* CourtCoverage-Info.plist */ = {isa = PBXFileReference; path = "CourtCoverage-Info.plist"; sourceTree = "<group>"; };
+		C3B7C8DE143A87870059B9BC /* CourtCoverage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CourtCoverage-Info.plist"; sourceTree = "<group>"; };
 		C3B7C8E0143A87870059B9BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C3B7C8E2143A87870059B9BC /* CourtCoverage-Prefix.pch */ = {isa = PBXFileReference; path = "CourtCoverage-Prefix.pch"; sourceTree = "<group>"; };
+		C3B7C8E2143A87870059B9BC /* CourtCoverage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CourtCoverage-Prefix.pch"; sourceTree = "<group>"; };
 		C3B7C8E3143A87870059B9BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C3B7C8E5143A87870059B9BC /* CourtCoverageAppDelegate.h */ = {isa = PBXFileReference; path = CourtCoverageAppDelegate.h; sourceTree = "<group>"; };
+		C3B7C8E5143A87870059B9BC /* CourtCoverageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourtCoverageAppDelegate.h; sourceTree = "<group>"; };
 		C3B7C8E6143A87870059B9BC /* CourtCoverageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourtCoverageAppDelegate.m; sourceTree = "<group>"; };
 		C3B7C8E9143A87870059B9BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C3B7C8EB143A87870059B9BC /* CourtCoverageViewController.h */ = {isa = PBXFileReference; path = CourtCoverageViewController.h; sourceTree = "<group>"; };
+		C3B7C8EB143A87870059B9BC /* CourtCoverageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourtCoverageViewController.h; sourceTree = "<group>"; };
 		C3B7C8EC143A87870059B9BC /* CourtCoverageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourtCoverageViewController.m; sourceTree = "<group>"; };
 		C3B7C8EF143A87870059B9BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CourtCoverageViewController.xib; sourceTree = "<group>"; };
+		C3B7C8F6143A87990059B9BC /* BallStripes57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BallStripes57.png; sourceTree = "<group>"; };
+		C3B7C8F8143A87A50059B9BC /* BallStripes114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BallStripes114.png; sourceTree = "<group>"; };
+		C3B7C8FA143A8A770059B9BC /* HalfCourt768_1004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalfCourt768_1004.png; sourceTree = "<group>"; };
+		C3B7C8FD143A8C020059B9BC /* A1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A1.png; sourceTree = "<group>"; };
+		C3B7C8FE143A8C020059B9BC /* A2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A2.png; sourceTree = "<group>"; };
+		C3B7C8FF143A8C020059B9BC /* A3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A3.png; sourceTree = "<group>"; };
+		C3B7C900143A8C020059B9BC /* A4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A4.png; sourceTree = "<group>"; };
+		C3B7C901143A8C020059B9BC /* A5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A5.png; sourceTree = "<group>"; };
+		C3B7C902143A8C020059B9BC /* B1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B1.png; sourceTree = "<group>"; };
+		C3B7C903143A8C020059B9BC /* B2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B2.png; sourceTree = "<group>"; };
+		C3B7C904143A8C020059B9BC /* B3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B3.png; sourceTree = "<group>"; };
+		C3B7C905143A8C020059B9BC /* B4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B4.png; sourceTree = "<group>"; };
+		C3B7C906143A8C020059B9BC /* B5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B5.png; sourceTree = "<group>"; };
+		C3B7C911143A8CFE0059B9BC /* letter_c_100_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter_c_100_100.png; sourceTree = "<group>"; };
+		C3B7C912143A8CFE0059B9BC /* letter_L_100_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter_L_100_100.png; sourceTree = "<group>"; };
+		C3B7C913143A8CFE0059B9BC /* letter_t_100_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter_t_100_100.png; sourceTree = "<group>"; };
+		C3B7C917143A8DA70059B9BC /* Basketball-Ball-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Basketball-Ball-icon.png"; sourceTree = "<group>"; };
+		C3B7C92A143BCDF00059B9BC /* MovementOnCourtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovementOnCourtView.m; sourceTree = "<group>"; };
+		C3B7C934143BD2280059B9BC /* MovementOnCourtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovementOnCourtView.h; sourceTree = "<group>"; };
+		C3BAE7B8144E482D0040D02A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3BAE7BA144E49D20040D02A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +95,17 @@
 		C3B7C8C7143A87870059B9BC = {
 			isa = PBXGroup;
 			children = (
+				6654262817B9BE7F00CA1D72 /* Default-568h@2x.png */,
+				C3BAE7BA144E49D20040D02A /* Default@2x.png */,
+				C3BAE7B8144E482D0040D02A /* Default.png */,
+				C3B7C917143A8DA70059B9BC /* Basketball-Ball-icon.png */,
+				C3B7C911143A8CFE0059B9BC /* letter_c_100_100.png */,
+				C3B7C912143A8CFE0059B9BC /* letter_L_100_100.png */,
+				C3B7C913143A8CFE0059B9BC /* letter_t_100_100.png */,
+				C3B7C8FC143A8C020059B9BC /* PlayerImages */,
+				C3B7C8FA143A8A770059B9BC /* HalfCourt768_1004.png */,
+				C3B7C8F8143A87A50059B9BC /* BallStripes114.png */,
+				C3B7C8F6143A87990059B9BC /* BallStripes57.png */,
 				C3B7C8DC143A87870059B9BC /* CourtCoverage */,
 				C3B7C8D5143A87870059B9BC /* Frameworks */,
 				C3B7C8D3143A87870059B9BC /* Products */,
@@ -79,6 +133,8 @@
 		C3B7C8DC143A87870059B9BC /* CourtCoverage */ = {
 			isa = PBXGroup;
 			children = (
+				C3B7C934143BD2280059B9BC /* MovementOnCourtView.h */,
+				C3B7C92A143BCDF00059B9BC /* MovementOnCourtView.m */,
 				C3B7C8E5143A87870059B9BC /* CourtCoverageAppDelegate.h */,
 				C3B7C8E6143A87870059B9BC /* CourtCoverageAppDelegate.m */,
 				C3B7C8E8143A87870059B9BC /* MainWindow.xib */,
@@ -99,6 +155,23 @@
 				C3B7C8E3143A87870059B9BC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B7C8FC143A8C020059B9BC /* PlayerImages */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7C8FD143A8C020059B9BC /* A1.png */,
+				C3B7C8FE143A8C020059B9BC /* A2.png */,
+				C3B7C8FF143A8C020059B9BC /* A3.png */,
+				C3B7C900143A8C020059B9BC /* A4.png */,
+				C3B7C901143A8C020059B9BC /* A5.png */,
+				C3B7C902143A8C020059B9BC /* B1.png */,
+				C3B7C903143A8C020059B9BC /* B2.png */,
+				C3B7C904143A8C020059B9BC /* B3.png */,
+				C3B7C905143A8C020059B9BC /* B4.png */,
+				C3B7C906143A8C020059B9BC /* B5.png */,
+			);
+			path = PlayerImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +199,14 @@
 /* Begin PBXProject section */
 		C3B7C8C9143A87870059B9BC /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					C3B7C8D1143A87870059B9BC = {
+						DevelopmentTeam = A6VENAP3WR;
+					};
+				};
+			};
 			buildConfigurationList = C3B7C8CC143A87870059B9BC /* Build configuration list for PBXProject "CourtCoverage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -151,6 +232,26 @@
 				C3B7C8E1143A87870059B9BC /* InfoPlist.strings in Resources */,
 				C3B7C8EA143A87870059B9BC /* MainWindow.xib in Resources */,
 				C3B7C8F0143A87870059B9BC /* CourtCoverageViewController.xib in Resources */,
+				C3B7C8F7143A87990059B9BC /* BallStripes57.png in Resources */,
+				C3B7C8F9143A87A50059B9BC /* BallStripes114.png in Resources */,
+				C3B7C8FB143A8A770059B9BC /* HalfCourt768_1004.png in Resources */,
+				C3B7C907143A8C020059B9BC /* A1.png in Resources */,
+				C3B7C908143A8C020059B9BC /* A2.png in Resources */,
+				C3B7C909143A8C020059B9BC /* A3.png in Resources */,
+				C3B7C90A143A8C020059B9BC /* A4.png in Resources */,
+				C3B7C90B143A8C020059B9BC /* A5.png in Resources */,
+				C3B7C90C143A8C020059B9BC /* B1.png in Resources */,
+				C3B7C90D143A8C020059B9BC /* B2.png in Resources */,
+				C3B7C90E143A8C020059B9BC /* B3.png in Resources */,
+				C3B7C90F143A8C020059B9BC /* B4.png in Resources */,
+				C3B7C910143A8C020059B9BC /* B5.png in Resources */,
+				C3B7C914143A8CFE0059B9BC /* letter_c_100_100.png in Resources */,
+				C3B7C915143A8CFE0059B9BC /* letter_L_100_100.png in Resources */,
+				C3B7C916143A8CFE0059B9BC /* letter_t_100_100.png in Resources */,
+				C3B7C918143A8DA70059B9BC /* Basketball-Ball-icon.png in Resources */,
+				C3BAE7B9144E482E0040D02A /* Default.png in Resources */,
+				C3BAE7BB144E49D20040D02A /* Default@2x.png in Resources */,
+				6654262917B9BE7F00CA1D72 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +265,7 @@
 				C3B7C8E4143A87870059B9BC /* main.m in Sources */,
 				C3B7C8E7143A87870059B9BC /* CourtCoverageAppDelegate.m in Sources */,
 				C3B7C8ED143A87870059B9BC /* CourtCoverageViewController.m in Sources */,
+				C3B7C92B143BCDF10059B9BC /* MovementOnCourtView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +303,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Johnson (4JLPF6ZL5Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Adam Johnson (4JLPF6ZL5Q)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -210,6 +313,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "BE09B6A2-C217-4BB5-BFF7-478DFECE6ED1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BE09B6A2-C217-4BB5-BFF7-478DFECE6ED1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -218,13 +323,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Johnson (4JLPF6ZL5Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adam Johnson";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "BE09B6A2-C217-4BB5-BFF7-478DFECE6ED1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A7BDF305-D6A9-479E-A3C2-21C353937005";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -233,12 +341,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CourtCoverage/CourtCoverage-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CourtCoverage/CourtCoverage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,15 +360,58 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CourtCoverage/CourtCoverage-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CourtCoverage/CourtCoverage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
+		};
+		C3BAE7B6144E47A60040D02A /* Archiving */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Johnson (4JLPF6ZL5Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adam Johnson";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "BE09B6A2-C217-4BB5-BFF7-478DFECE6ED1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A7BDF305-D6A9-479E-A3C2-21C353937005";
+				SDKROOT = iphoneos;
+			};
+			name = Archiving;
+		};
+		C3BAE7B7144E47A60040D02A /* Archiving */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CourtCoverage/CourtCoverage-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CourtCoverage/CourtCoverage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "22AF9B95-2FBA-497D-8A4E-22BBE435029C";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Archiving;
 		};
 /* End XCBuildConfiguration section */
 
@@ -265,6 +421,7 @@
 			buildConfigurations = (
 				C3B7C8F1143A87870059B9BC /* Debug */,
 				C3B7C8F2143A87870059B9BC /* Release */,
+				C3BAE7B6144E47A60040D02A /* Archiving */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -274,8 +431,10 @@
 			buildConfigurations = (
 				C3B7C8F4143A87870059B9BC /* Debug */,
 				C3B7C8F5143A87870059B9BC /* Release */,
+				C3BAE7B7144E47A60040D02A /* Archiving */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
